@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ImagePicker"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ConsLayout"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ImagePicker">
@@ -27,6 +27,9 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ColumnWithScrollView"></activity>
+        <activity android:name=".LazyColumns"></activity>
     </application>
 
 </manifest>
